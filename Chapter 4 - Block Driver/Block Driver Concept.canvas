@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"e7714a75bffc9191","type":"text","text":"Block layer role:\n1. Manages request queue - add, merge and schedule\n2. Caching\n3. Uses struct gendisk\n![[Pasted image 20241004115325.png]]","x":-1460,"y":-600,"width":464,"height":562},
+		{"id":"dc3c2a5f9cc7e8fa","type":"text","text":"Scheduler:\n1. There are many types of scheduler. You can see in `cd /sys/block/sda/queue`\n2. scheduler is main file where we can associate which scheduler to be used. You can change it by `echo > <scheduler_name> > scheduler`","x":-960,"y":-600,"width":360,"height":281},
+		{"id":"6369785df3ebaca8","type":"text","text":"Caching\n1. When a write function is initiated to block driver, before it even writes, it takes a copy of the data and writes it into buffer/temporary memory.\n2. As long as the memory block is present that information will be stored.\n3. When a read is requested, it can get the data from the temporary memory itself, if it is still available.\n4. These operations might not be notified to the block driver.\n5. Kernel can do a read ahead if needed before a process can ask for them.","x":-540,"y":-600,"width":380,"height":420}
+	],
+	"edges":[]
+}

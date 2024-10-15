@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"17d6e8d3736e57ce","type":"text","text":"LIFE CYCLE OF KERNEL MODULE","x":-268,"y":-460,"width":368,"height":60},
+		{"id":"2e3ee2d313db75a0","type":"text","text":"module_init(<callback_function>)\n\n","x":-780,"y":-270,"width":300,"height":60},
+		{"id":"53e732c3b0a0ec5a","type":"text","text":"module_init - macro to identify which callback function to load which is passed as argument.\n\"__init\" (symbol in callback) - help the linker to load the function in initialization kernel space and then frees up after it's purpose is done. ","x":-813,"y":-160,"width":841,"height":100},
+		{"id":"eb9180ac78a93264","type":"text","text":"static int ==__init== <callback_func>(void)","x":-360,"y":-270,"width":353,"height":60},
+		{"id":"8d69bf33021491c6","type":"text","text":"MODULE INIT","x":-518,"y":-360,"width":250,"height":60},
+		{"id":"22968a280c6a6e82","type":"text","text":"MODULE EXIT","x":-517,"y":-20,"width":250,"height":60},
+		{"id":"72b374845fa9d53e","type":"text","text":"return 0 if success, else -1","x":120,"y":-270,"width":250,"height":60},
+		{"id":"ac3956444d1580d4","type":"text","text":"module_exit(<callback_function>)","x":-768,"y":60,"width":308,"height":60},
+		{"id":"239abc2fa50fd06f","type":"text","text":"static void ==__exit== <callback_func>(void)","x":-360,"y":60,"width":353,"height":60},
+		{"id":"9bf960d0597d098b","type":"text","text":"module_exit - macro to identify which callback function to load when kernel termination happens\n\"__exit\" (symbol in callback) - help the linker to identify the function in termination kernel space and then frees up after it's purpose is done. ","x":-812,"y":140,"width":841,"height":100},
+		{"id":"c670bf14b6f749dd","type":"text","text":"Note: Safely remove all the function pointer that are used while loading the kernel module during exit phase, to avoid kernel panic.","x":140,"y":72,"width":340,"height":168},
+		{"id":"c7e330e9cf7815fb","type":"text","text":"SYMBOLS LIKE \"**__INIT**\" and \"__EXIT\" are mainly used for static linked libraries","x":140,"y":-120,"width":340,"height":100,"color":"2"}
+	],
+	"edges":[
+		{"id":"e3180b731021701a","fromNode":"2e3ee2d313db75a0","fromSide":"right","toNode":"eb9180ac78a93264","toSide":"left"},
+		{"id":"b73a9d070114369f","fromNode":"2e3ee2d313db75a0","fromSide":"bottom","toNode":"53e732c3b0a0ec5a","toSide":"left"},
+		{"id":"f1ea8f659fa32e79","fromNode":"eb9180ac78a93264","fromSide":"bottom","toNode":"53e732c3b0a0ec5a","toSide":"top"},
+		{"id":"04502dc2701ab285","fromNode":"ac3956444d1580d4","fromSide":"right","toNode":"239abc2fa50fd06f","toSide":"left"},
+		{"id":"8e17536e0ddb466e","fromNode":"eb9180ac78a93264","fromSide":"right","toNode":"72b374845fa9d53e","toSide":"left"},
+		{"id":"960542ea71edc378","fromNode":"9bf960d0597d098b","fromSide":"right","toNode":"c670bf14b6f749dd","toSide":"left"}
+	]
+}

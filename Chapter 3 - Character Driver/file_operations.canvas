@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"95ad48803d09e602","type":"text","text":"`write()` - Used to write in a file object\narguments\n1. file object\n2. user buffer which has information to write on the file.\n3. size of the buffer\n4. offset\n`points to note:`\nReturns number of bytes written. If device writes less than the mentioned size, which is fine.\n","x":-700,"y":-140,"width":520,"height":300},
+		{"id":"b17e4d3c6d84676c","type":"text","text":"`Open()`\n1. It is used to open a file object\n2. It increments a counter every time a file is opened from the module and decrements when the close is called. If the counter is not 0 while removing the module, then the kernel wont allow to do the close operation.","x":-620,"y":-520,"width":380,"height":260},
+		{"id":"58a0bdf3e93aaca0","type":"text","text":"`read()` - Used to read a file object\narguments\n1. file object to read\n2. char* buffer object to store the read data.\n3. size_t size to read how much size of the data and add it in buffer.\n4. offset.\n`Points to note:`\nread can return 0 for end of file\ncan return negative value on error\ncan return positive value if read complete.","x":-100,"y":-540,"width":540,"height":340},
+		{"id":"5a9d422e358836f1","type":"text","text":"`release()` - Used to release the file object.\nGets called when last close() happens\nWhen the user counter goes to 0, then automatically the release of the file object is called and the space is freed up.\n\nForked processes cause copies of file table entries: one open(), but many close()","x":-100,"y":-122,"width":620,"height":242}
+	],
+	"edges":[]
+}

@@ -1,0 +1,1 @@
+EXPORT_SYMBOL and EXPORT_SYMBOL_GPL can be used to export the symbols of the module.

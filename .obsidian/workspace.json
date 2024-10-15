@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "32be47c236a08bc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "812cea9f00832a76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e14e864d8a62116d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POCs/POC Ideas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "48812d366826ea0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a21cc5fc05976164",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46189ef1a20ffa90",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "159d89c2d8f399fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3bc5692051023b99",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "87365265f44169c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dd48a7a17a86629",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3776bdc69c62573a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "POCs/POC Ideas.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8267de2c6e70c886",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "POCs/POC Ideas.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "86e87d8f9a268e1f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "17ed9594a3b774b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "POCs/POC Ideas.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e14e864d8a62116d",
+  "lastOpenFiles": [
+    "POCs/POC - Blinking LED in Arduino through character driver.md",
+    "Chapter 5 - Network Devices/Commands.canvas",
+    "Chapter 5 - Network Devices/Intro.md",
+    "Chapter 4 - Block Driver/Challenge.md",
+    "Chapter 4 - Block Driver/Block Driver Functions.canvas",
+    "POCs/POC - Display number using 7 Segment display in Arduino through character driver file.md",
+    "POCs/POC Ideas.md",
+    "uname -r.md",
+    "Chapter 3 - Character Driver/file_operations.canvas",
+    "Chapter 3 - Character Driver/Device Files & mknod.md",
+    "Chapter 3 - Character Driver/Character_Driver.md",
+    "Chapter 3 - Character Driver/Challenge.md",
+    "Chapter 3 - Character Driver/Address Space.md",
+    "Chapter 2 - Writing Kernel Module/Writing_Kernel_Module/Template kernel code.md",
+    "Chapter 2 - Writing Kernel Module/Writing_Kernel_Module/Important functions.canvas",
+    "Chapter 2 - Writing Kernel Module/Writing_Kernel_Module/Debug_and_tracing/Tracers.md",
+    "Chapter 2 - Writing Kernel Module/Writing_Kernel_Module/Debug_and_tracing/Printk usage.md",
+    "Chapter 2 - Writing Kernel Module/Writing_Kernel_Module/Compilation/MakeFile Compilation.md",
+    "Chapter 2 - Writing Kernel Module/Writing_Kernel_Module/Compilation/Compiling a module.md",
+    "Chapter 1 - Introduction/2. Module_Parameters/GetInfo.md",
+    "Chapter 1 - Introduction/Test/Challenge.md",
+    "Chapter 1 - Introduction/3. Licensing_Modules/Licensing modules.md",
+    "Chapter 1 - Introduction/2. Module_Parameters/Types of macro definitions in device drivers.md",
+    "Chapter 1 - Introduction/1. Main_Commands/Useful_Commands_canvas.canvas",
+    "Chapter 3 - Character Driver/File Operation and File Table.md",
+    "Chapter 4 - Block Driver/Block Driver Concept.canvas",
+    "Chapter 4 - Block Driver/Block Device - Notes.md",
+    "POCs",
+    "POC - 1.md",
+    "Chapter 5 - Network Devices/Commands.md",
+    "Chapter 5 - Network Devices",
+    "clipboard_paste/Pasted image 20241004162438.png",
+    "clipboard_paste/Pasted image 20241004162127.png",
+    "clipboard_paste/Pasted image 20241004162036.png",
+    "clipboard_paste/Pasted image 20241004135257.png",
+    "clipboard_paste/Pasted image 20241004134938.png",
+    "clipboard_paste/Pasted image 20241004131059.png",
+    "clipboard_paste/Pasted image 20241003212821.png",
+    "clipboard_paste/Pasted image 20240926221352.png",
+    "clipboard_paste/Pasted image 20240926221146.png",
+    "clipboard_paste/Pasted image 20241004115325.png",
+    "Chapter 4 - Block Driver",
+    "Chapter 3/Character_Driver",
+    "Chapter 3/Open() and read().md",
+    "Chapter 3/mknod.md",
+    "Chapter 3 - Character Driver",
+    "Chapter 2 - Writing Kernel Module/Writing_Kernel_Module/Debug_and_tracing",
+    "clipboard_paste",
+    "Chapter 2 - Writing Kernel Module/Writing_Kernel_Module/Compilation",
+    "Chapter 2 - Writing Kernel Module/Writing_Kernel_Module",
+    "Chapter 2 - Writing Kernel Module",
+    "2. Module_Parameters/Untitled.canvas",
+    "Untitled.canvas"
+  ]
+}

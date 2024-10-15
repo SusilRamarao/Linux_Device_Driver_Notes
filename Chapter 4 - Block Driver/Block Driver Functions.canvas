@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"51a073a9791a1607","x":-820,"y":-320,"width":490,"height":544,"type":"text","text":"block driver struct is present in blkdev.h\n![[Pasted image 20241004131059.png]]\n"},
+		{"id":"8b0f339128eda6e6","x":-280,"y":-432,"width":351,"height":225,"type":"text","text":"sd_open()\n1. Open is used to open a block drive.\n2. Used for mounting, partitioning, making a file system etc..\n3. "},
+		{"id":"bebef7c2e1ef3e07","x":180,"y":-432,"width":300,"height":166,"type":"text","text":"sd_ioctl()\n1. Is used to get an information about a particular disk"},
+		{"id":"347426c7d35754a9","x":-300,"y":-180,"width":480,"height":660,"color":"2","type":"text","text":"Tracing:\nThe tracing can be invoked using kernel/debug/tracing in sys\ncan invoke below script to trace specific keyword in functions\n![[Pasted image 20241004134938.png]]\n\nand when the above script is invoked with argument as `sd_*` and when we do hdparm from the next card, we should be able to see the trace in `trace_pipe`, where we can see some ioctl calls are called.\n\n![[Pasted image 20241004135257.png]]\n\n\n"},
+		{"id":"510ac46ddc2f02ab","x":240,"y":-160,"width":406,"height":280,"color":"2","type":"text","text":"**Get Information:**\nhdparm can be used to get an information about a particular disk\nFor example\n`hdparm -I /dev/sda`\n\nSimilar thing can be done using strace\n`strace -e ioctl -o /tmp/strace.out hdparm -I /dev/sda`"}
+	],
+	"edges":[
+		{"id":"8c275f0e2341480d","fromNode":"347426c7d35754a9","fromSide":"right","toNode":"510ac46ddc2f02ab","toSide":"left","color":"2"}
+	]
+}

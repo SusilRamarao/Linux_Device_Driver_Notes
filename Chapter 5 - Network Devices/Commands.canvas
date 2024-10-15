@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"4a078e088196ff77","type":"text","text":"ifconfig (Interface Config):\nshows the number of network interfaces that are present, statistics, how much written and received.","x":-940,"y":-596,"width":280,"height":258},
+		{"id":"fbd566f53a6556d4","type":"text","text":"IP\nUsed for routing device interface","x":-540,"y":-596,"width":239,"height":143},
+		{"id":"7d81f5c34dd5be9d","type":"text","text":"ethtool\nUsed to interact with the driver or a network device.","x":-220,"y":-596,"width":260,"height":100}
+	],
+	"edges":[]
+}

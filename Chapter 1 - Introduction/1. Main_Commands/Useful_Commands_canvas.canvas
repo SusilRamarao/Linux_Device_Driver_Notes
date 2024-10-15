@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"ace2c80855916dfb","type":"text","text":"Useful Module Commands\n1. insmod\n2. rmmod\n3. lsmod\n4. depmod\n5. modprobe","x":-1000,"y":-340,"width":291,"height":214},
+		{"id":"0c6bf0d7bd9bbf32","type":"text","text":"NAVIGATE TO kernel files\n\ncd /lib/modules/$(uname -r)/kernel/fs","x":-1000,"y":-640,"width":280,"height":140,"color":"3"},
+		{"id":"2b14ddb82dd48a5d","type":"text","text":"***insmode (insert module) and rmmod (remove module)***\n\n**Usage:** \nUSERSPACE commands\nUsed to insert and remove a module dynamically to kernelspace\n\nSimilar to Dynamically linking library.\n","x":-520,"y":-740,"width":420,"height":260,"color":"4"},
+		{"id":"54e9d58b7057ba97","type":"text","text":"lsmod\nTo list all modules that are DYNAMICALLY loaded, but not statically loaded.","x":-461,"y":-412,"width":289,"height":145,"color":"4"},
+		{"id":"56e601252c739943","x":-487,"y":-226,"width":354,"height":200,"color":"4","type":"text","text":"depmod\nShows dependency between modules\n\ngrep btrfs.ko modules.dep to view which other file's symbols req.\n"},
+		{"id":"5bf336c9ad9bb81e","x":40,"y":-233,"width":340,"height":190,"color":"3","type":"text","text":"STACKED MODULES/DEPENDENCY\ncd /lib/modules/$(uname -r)/modules.dep.bin\n\nmodules.dep shows the dependency of other modules to run/load etc."},
+		{"id":"de458a822bb013c1","x":-550,"y":20,"width":510,"height":660,"color":"4","type":"text","text":"![[Pasted image 20240906202002.png]]\nModprobe is used to initialize a ko file, if executed it uses the information in modules.dep and then loads the necessary dependencies first before loading the mentioned module."},
+		{"id":"519eb0b7f1ffe134","x":60,"y":140,"width":300,"height":140,"color":"3","type":"text","text":"IF I am developing a module then It is highly recommended to use insmod"}
+	],
+	"edges":[
+		{"id":"824b702621835d32","fromNode":"ace2c80855916dfb","fromSide":"right","toNode":"2b14ddb82dd48a5d","toSide":"left"},
+		{"id":"ec15739d13d39801","fromNode":"ace2c80855916dfb","fromSide":"right","toNode":"54e9d58b7057ba97","toSide":"left"},
+		{"id":"81258376c0121214","fromNode":"ace2c80855916dfb","fromSide":"right","toNode":"56e601252c739943","toSide":"left"},
+		{"id":"c3725ca02f4e5156","fromNode":"ace2c80855916dfb","fromSide":"right","toNode":"de458a822bb013c1","toSide":"left"},
+		{"id":"e85fb7c61b205bb9","fromNode":"519eb0b7f1ffe134","fromSide":"left","toNode":"de458a822bb013c1","toSide":"right"},
+		{"id":"54ea6888d4e31080","fromNode":"5bf336c9ad9bb81e","fromSide":"left","toNode":"56e601252c739943","toSide":"right"}
+	]
+}
