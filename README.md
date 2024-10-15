@@ -1,6 +1,6 @@
 These notes are taken for linux device drivers for the course https://www.linkedin.com/learning/linux-device-drivers/explore-linux-device-drivers. 
 
-Please use Obsidian note taking app to open the notes.
+--->>> PLESE USE OBSIDIAN NOTE TAKING APP TO OPEN THE NOTES <<<---
 
 The POCs for the device drivers using Arduino can be seen in my youtube channel
 
