@@ -2,7 +2,7 @@ These notes are taken for linux device drivers for the course https://www.linked
 
 --->>> PLESE USE OBSIDIAN NOTE TAKING APP TO OPEN THE NOTES <<<---
 
-The POCs for the device drivers using Arduino can be seen in my youtube channel
+The POCs for the device drivers using Arduino can be seen in my youtube channel, code is present in https://github.com/SusilRamarao/Ubuntu-Arduino-Kernel-Driver-Communication
 
 https://www.youtube.com/watch?v=MYD0Eqn61QA - Blinking LED by passing 0 or 1 via character driver.
 
